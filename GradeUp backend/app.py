@@ -423,7 +423,7 @@ def upload():
                     400,
                 )
     else:
-        return "okkkkkk11", 400
+        return "ok", 400
     return (
         "Files uploaded successfully. You can upload more answer sheets or go for a different course.",
         201,
