@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# GradeUp
+This is a platform where teaching faculty can grade student responses an using inbuilt AI algorithm, check feedback and students can view their individual scores
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Why GradeUp?
+   * Intuitive Design
+   * Fast and accurate grading
+   * Easy communication of grades to students
+   * Feedback based on performance
 
-## Available Scripts
+## Tech Stack
+   * HTML
+   * CSS
+   * Bootstrap
+   * Javascript
+   * React.js
+   * Python(libraries mentioned in requirements)
+   * MongoDB
+   * Flask
 
-In the project directory, you can run:
+## Instructions to make the model answer key:
+   * The model answer key.txt file must start with Total marks mentioning the total marks in the paper.
+   * Then it must have the Total Questions mentioned in the paper.
+   * Then it must show the question wise marks distribution.
+   * Then it must have the answer in the following format:
+	Answer 1(Replace with the answer number)  : 
+	Subpoint 1[Content of subpoint]
+	Type: Mention the type: meaning, keywords,FIB. If the type is keywords then write a hyphen and write all the 	keywords you expect in the answer separated by commas.
+	* In the Type: end the line with maximum marks for that subpoint in square brackets.  [ ]
+	* After each subpoint, in a new line write two hyphens(--)
+	* Write other subpoints in the same format.
+        * After each answer, write ‘End of answer’ signifying the end of that answer.
 
-### `npm start`
+## Requirements
+1. Make sure that you have react.js and mongodb installed on your system.
+2.Run "pip install flask, pymongo, urlib.parse, bcrypt, flask_cors, flask_login, bson,pandas, re, io, werkzeug.utils,scipy,matplotlib" for python on Windows
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to run this app?
+1. Change the directory to the folder where you have cloned this repo.
+2. Run "npm start" in terminal.
+3. Run "python app.py" in another terminal..
