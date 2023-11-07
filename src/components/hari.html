@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .upload-box {
+            text-align: center;
+            padding: 5vh;
+            border-radius: 5vh;
+            cursor: pointer;
+            box-shadow: 0 4vh 6vh rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .upload-box img {
+            width: 10vh;
+            margin-bottom: 2vh;
+        }
+
+        .drag-drop-area {
+            border: 2px dashed #ccc;
+            padding: 5vh;
+            border-radius: 5vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* Hide the default file input */
+        input[type="file"] {
+            display: none;
+        }
+
+        label {
+            display: inline-block;
+            padding: 2vh 4vh;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 15vh;
+            cursor: pointer;
+        }
+
+        label:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>File Upload</title>
+</head>
+<body>
+    <div class="upload-box">
+        <a><img src="https://cdn.pixabay.com/photo/2016/01/03/00/43/upload-1118929_1280.png" alt="Upload Icon">
+        <div class="drag-drop-area">
+            <p>Drag & Drop Files Here</p>
+            <input type="file" id="fileInput" accept=".txt" style="display: none;">
+            <label for="fileInput" class="dashed-box">Or Choose a File</label>
+        </div>
+    </div>
+</body>
+</html>

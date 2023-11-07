@@ -1,0 +1,281 @@
+/* body{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/12/77/27/1000_F_112772790_6CnsljoFKia4oR4ambJFvreboUaqZXTW.jpg");
+} */
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+    
+}
+.profile-img img{
+    width: 20vh;
+    height: 20vh;
+    border: 10px;
+    border-color: black;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    
+    /* border: none; */
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+/* Add this CSS to make the grade section responsive with margins */
+@media (max-width: 768px) {
+    .col-md-8 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .btn-group {
+      flex-direction: column;
+    }
+    .btn-group .btn {
+      width: 100%;
+      margin-bottom: 10px; /* Adjust the margin to your preference */
+      padding: 10px; /* Add padding for a cleaner look */
+    }
+  }
+
+
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.social-links li a {
+    border-radius: 50%;
+    color: rgba(121, 121, 121, .8);
+    display: inline-block;
+    height: 30px;
+    line-height: 27px;
+    border: 2px solid rgba(121, 121, 121, .5);
+    text-align: center;
+    width: 30px
+}
+
+.social-links li a:hover {
+    color: #797979;
+    border: 2px solid #797979
+}
+.thumb-lg {
+    height: 88px;
+    width: 88px;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.text-pink {
+    color: #ff679b!important;
+}
+.btn-rounded {
+    border-radius: 2em;
+}
+.text-muted {
+    color: #98a6ad!important;
+}
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+/* Student.css */
+.container {
+    padding: 20px;
+}
+
+.profile-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-head {
+    padding: 1vh;
+    /* background-color: #f8f8f8; */
+}
+
+.profile-head h5 {
+    font-size: 4vh;
+    color: #333;
+}
+
+/* .profile-head h6 {
+    font-size: 18px;
+    color: #777;
+} */
+
+.proile-rating {
+    font-size: 2vh;
+    color: #333;
+}
+
+.nav-item {
+    margin-right: 3vh;
+}
+
+.nav-link {
+    /* font-size: 2vh; */
+    color: #333;
+    cursor: pointer;
+}
+
+.tab-content {
+    margin-top: 3vh;
+}
+
+/* Add more styles as needed */
+button.btn-primary[type="button"] {
+    border: none;
+   
+}
+
+button.btn-success {
+    border: none;
+    
+}
+.card-body{
+    border: none;
+}
+.btn-success{
+    width: 25vh;
+    margin: auto;
+}
+
+
+#modalexample{
+    width: 40vh;
+    margin-left: 8vh;
+}
+
+.box {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the content within the box */
+  .text-center.card-box {
+    /* background-color: #f7f7f7; */
+    background-color: #f7f7f7bd;
+    padding: 15px;
+    border-radius: 4vh;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1);
+  }
+  .text-center.card-box:hover {
+    background-color: rgba(214, 213, 213, 0.514);
+    scale: 1.05;
+    transition: 0.4s;
+  }
+  
+  /* Additional styling for the content within the box (you can customize this further) */
+  .text-center.card-box h4 {
+    font-size: 20px;
+    color: #333;
+    
+  }
+  
+  /* Style for buttons within the box (you can customize these further) */
+  .text-center.card-box button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .text-center.card-box button.btn-success {
+    background-color: #5cb85c;
+    color: #fff;
+  }
+  
+  .text-center.card-box button.btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+  }
+
+
+

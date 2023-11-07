@@ -1,0 +1,314 @@
+
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+    
+}
+.profile-img img{
+    width: 20vh;
+    height: 20vh;
+    border: 10px;
+    border-color: black;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    
+    /* border: none; */
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+/* Add this CSS to make the grade section responsive with margins */
+@media (max-width: 768px) {
+    .col-md-8 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .btn-group {
+      flex-direction: column;
+    }
+    .btn-group .btn {
+      width: 100%;
+      margin-bottom: 10px; /* Adjust the margin to your preference */
+      padding: 10px; /* Add padding for a cleaner look */
+    }
+  }
+
+.collapse1{
+    /* width: 60vh; */
+    padding-left: 33vh;
+    padding-top: 5vh;
+    width: 70vh;
+}
+.collapse2{
+    /* width: 60vh; */
+    
+    padding-top: 5vh;
+    width: 70vh;
+}
+
+/* .whole{
+    width: 50rem;
+    margin-left: 60vh;
+} */
+.whole {
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    width: 50vh;
+    padding-left: 5vh;
+  }
+  
+  /* Responsive styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .whole {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+.togglefile{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Style for the modal dialog */
+.modal-dialog.modal-xl {
+    max-width: 95%; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style for the modal content */
+  .modal-content {
+    border: 2px solid #878b8f; /* Example border color */
+    border-radius: 10px;
+  }
+  
+  /* Style for the modal header */
+  .modal-header {
+    background-color: #5b5e62; /* Example background color */
+    color: #fff; /* Example text color */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Style for the modal title */
+  .modal-title {
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  /* Style for the close button */
+  .btn-close {
+    color: #fff; /* Example close button color */
+  }
+  
+  /* Style for the modal body */
+  .modal-body {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  /* Style for the modal footer */
+  .modal-footer {
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Style for the close button in the footer */
+  .modal-footer .btn-secondary {
+    background-color: #ccc; /* Example background color for the Close button */
+    color: #333; /* Example text color for the Close button */
+  }
+
+
+
+  .upload-box {
+    text-align: center;
+    padding: 2vh;
+    border-radius: 4vh;
+    cursor: pointer;
+    box-shadow: 0 4vh 6vh rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-box img {
+    width: 10vh;
+    margin-bottom: 2vh;
+}
+
+.drag-drop-area {
+    border: 2px dashed #ccc;
+    padding: 5vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+  
+.submitfile {
+    display: inline-block;
+    padding: 1vh 3vh;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15vh;
+
+    cursor: pointer;
+}
+
+.submitfile:hover {
+    background-color: #0056b3;
+}
+
+
+
+#choseFileFrame {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+ 
+.resultanalysis{
+    display: flex;
+    
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+
+ 
+/* .row {
+    display: flex;
+    justify-content: space-between;
+}  */
+
+.col-6 {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 40vh;
+    margin-bottom: 10vh;
+}
+
+/* CSS to set a fixed width for buttons with class btn-common */
+.btn-common {
+    width: 100%; /* Adjust the width as needed */
+}
+
+#resultshow{
+    /* width: 100vh; */
+    display: flex;
+}
+
+
+.insideimage{
+    height: 10vh;
+}
+
+#showresult{
+    display: flex;
+}
+
+
+#profWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.grid-item {
+    margin-left: 10vw;
+}

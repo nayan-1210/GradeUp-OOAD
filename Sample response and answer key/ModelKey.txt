@@ -1,0 +1,57 @@
+Total marks=15 marks
+Total Questions=5
+Question 1: 4 marks
+Question 2: 1 marks
+Question 3: 8 marks
+Question 4: 1 marks
+Question 5: 1 marks
+
+Question 1: What is photosynthesis?
+Answer 1 :
+The process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water. Photosynthesis in plants generally involves the green pigment chlorophyll and generates oxygen as a by-product. 
+Type: keywords-green,sunlight,carbon dioxide,water,chlorophyll [4]
+--
+End of answer
+
+Question 2: What do phototrophs do in the photosynthesis process?
+Answer 2 :
+Phototrophs convert light energy into chemical energy.
+Type: keywords-light,chemical [1]
+--
+End of answer
+
+Question 3: What is DNA and how does it function in cells?
+Answer 3 :
+DNA, or deoxyribonucleic acid, is a molecule that carries the genetic information in all living organisms.
+Type: meaning [1]
+-- 
+It consists of a double helix structure made up of nucleotide units. Each nucleotide is composed of a phosphate group, a deoxyribose sugar molecule, and one of four nitrogenous bases: adenine (A), thymine (T), cytosine (C), or guanine (G).
+Type: keywords-double helix,nucleotide,nitrogenous bases [2]
+-- 
+The sequence of these bases encodes the genetic instructions for an organism's growth, development, and functioning.
+Type: meaning[1]
+--
+In cells, DNA serves as a blueprint for the synthesis of proteins, which are essential for various biological processes. This process begins with transcription, during which a segment of DNA is copied into a complementary molecule called messenger RNA (mRNA).
+Type: keywords-proteins, transcription [1]
+-- 
+The mRNA then exits the cell nucleus and enters the cytoplasm, where it is used as a template for protein synthesis in a process called translation. This translation involves the assembly of amino acids into a specific sequence to create a protein.
+Type: keywords-translation,amino acids[1]
+--
+DNA replication is another crucial function of DNA, which ensures that each new cell receives an accurate copy of the genetic information during cell division. DNA's ability to store and , genetic information is central to the inheritance and diversity of life on Earth.
+Type: keywords-replication,inheritance,genetic [2]
+--
+End of answer
+
+Question 4: The basic structural and functional unit of all living organisms is the ______________.
+Answer 4 :
+Cell
+Type: FIB [1]
+--
+End of answer
+Question 5: .The process of cell division that results in two identical daughter cells is called ______________.
+A)Mitosis B)Cell C)Embryo D)None
+Answer 5 :
+A
+Type: FIB [1]
+--
+End of answer
