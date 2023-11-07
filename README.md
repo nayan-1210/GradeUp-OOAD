@@ -1,5 +1,5 @@
 # GradeUp
-This is a platform where teaching faculty can grade student responses an using inbuilt AI algorithm, check feedback and students can view their individual scores
+This is a web application where teaching faculty can grade student responses using an inbuilt AI algorithm and get feedback and students can view their individual scores.
 
 ## Why GradeUp?
    * Intuitive Design
@@ -31,7 +31,7 @@ This is a platform where teaching faculty can grade student responses an using i
         * After each answer, write ‘End of answer’ signifying the end of that answer.
 
 ## Requirements
-1. Make sure that you have react.js and mongodb installed on your system.
+1. Make sure that you have react.js app and mongodb installed on your system.
 2.Run "pip install flask, pymongo, urlib.parse, bcrypt, flask_cors, flask_login, bson,pandas, re, io, werkzeug.utils,scipy,matplotlib" for python on Windows
 
 
@@ -39,3 +39,10 @@ This is a platform where teaching faculty can grade student responses an using i
 1. Change the directory to the folder where you have cloned this repo.
 2. Run "npm start" in terminal.
 3. Run "python app.py" in another terminal..
+
+##Contributors
+1. Aditya Mundada @B1tB3ast
+2. Nayan Kakade @nayan-1210
+3. Haaziq Jamal @haaziqiitr
+4. Hariharan @notapro-I
+5. Meet Sindhav @meets3112
