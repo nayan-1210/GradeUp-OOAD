@@ -43,6 +43,6 @@ This is a web application where teaching faculty can grade student responses usi
 ##Contributors
 1. Aditya Mundada @B1tB3ast
 2. Nayan Kakade @nayan-1210
-3. Haaziq Jamal @haaziqiitr
+3. Haaziq Jamal @Haaziq386
 4. Hariharan @notapro-I
 5. Meet Sindhav @meets3112
