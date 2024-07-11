@@ -40,8 +40,8 @@ import io
 app = Flask(__name__)
 CORS(app)
 app.secret_key = "123456"
-username = "haaziqjamal"
-password = "Haaziq22@"
+username = "*****" #enter your username
+password = "*****" #enter your password
 
 login_manager = LoginManager()
 login_manager.init_app(app)
